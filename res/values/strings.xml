@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bmi Calculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="height">Height(M) </string>
+    <string name="height1">Height(CM) </string>
+    <string name="mass">Mass(KG)</string>
+    <string name="mass1">Mass(Pounds)</string>
+    <string name="bmi">Bmi_Calculate</string>
+    <string name="solution">Solution</string>
+    <string name="result">Results</string>
+    <string name="metric">METRIC BMI</string>
+    <string name="imperial">IMPERIAL BMI</string>
+     <string name="metr">metric</string>
+      <string name="impr">imperial</string>
+
+</resources>

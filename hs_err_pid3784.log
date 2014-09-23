@@ -1,0 +1,84 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3470), pid=3784, tid=260
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 7.0-b147
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (21.0-b17 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000000aec000):  JavaThread "Unknown thread" [_thread_in_vm, id=260, stack(0x00000000022a0000,0x00000000023a0000)]
+
+Stack: [0x00000000022a0000,0x00000000023a0000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000000aec000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=260, stack(0x00000000022a0000,0x00000000023a0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x000007f7cdc60000 - 0x000007f7cdc93000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x000007ffc4860000 - 0x000007ffc4a1e000 	C:\Windows\SYSTEM32\ntdll.dll
+0x000007ffc23c0000 - 0x000007ffc24f6000 	C:\Windows\system32\KERNEL32.DLL
+0x000007ffc1960000 - 0x000007ffc1a53000 	C:\Windows\system32\KERNELBASE.dll
+0x000007ffc2cc0000 - 0x000007ffc2d9e000 	C:\Windows\system32\ADVAPI32.dll
+0x000007ffc2fb0000 - 0x000007ffc30fc000 	C:\Windows\system32\USER32.dll
+0x000007ffbf5b0000 - 0x000007ffbf819000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9200.16384_none_418c2a697189c07f\COMCTL32.dll
+0x000007ffc2500000 - 0x000007ffc25a5000 	C:\Windows\system32\msvcrt.dll
+0x000007ffc1f90000 - 0x000007ffc1fd8000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007ffc2840000 - 0x000007ffc2980000 	C:\Windows\system32\RPCRT4.dll
+0x000007ffc31c0000 - 0x000007ffc3300000 	C:\Windows\system32\GDI32.dll
+0x000007ffc2c80000 - 0x000007ffc2cb9000 	C:\Windows\system32\IMM32.DLL
+0x000007ffc1cd0000 - 0x000007ffc1de4000 	C:\Windows\system32\MSCTF.dll
+0x0000000070c60000 - 0x0000000070d31000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x0000000070590000 - 0x0000000070c5e000 	C:\Program Files\Java\jre7\bin\server\jvm.dll
+0x000007ffbb150000 - 0x000007ffbb159000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x000007ffbcd40000 - 0x000007ffbcd60000 	C:\Windows\SYSTEM32\WINMM.dll
+0x000007ffc2e20000 - 0x000007ffc2e27000 	C:\Windows\system32\PSAPI.DLL
+0x000007ffc27e0000 - 0x000007ffc2838000 	C:\Windows\system32\WS2_32.dll
+0x000007ffbc760000 - 0x000007ffbc792000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x000007ffc31b0000 - 0x000007ffc31b9000 	C:\Windows\system32\NSI.dll
+0x0000000070580000 - 0x000000007058f000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x0000000070550000 - 0x0000000070578000 	C:\Program Files\Java\jre7\bin\java.dll
+0x0000000070530000 - 0x0000000070545000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\Users\icHIGo\Desktop\adt-bundle-windows-x86_64\sdk\platforms\android-17\android.jar 
+java_command: com.nic.bmicalculater.Imperial
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static
+USERNAME=icHIGo
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=AMD64 Family 15 Model 67 Stepping 3, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.2 Build 9200 
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 15 model 67 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, mmxext, 3dnowpref
+
+Memory: 4k page, physical 915792k(147744k free), swap 1774536k(363912k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (21.0-b17) for windows-amd64 JRE (1.7.0-b147), built on Jun 27 2011 02:19:45 by "java_re" with unknown MS VC++:1600
+
+time: Wed May 29 08:42:28 2013
+elapsed time: 0 seconds
+
